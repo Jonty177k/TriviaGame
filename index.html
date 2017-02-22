@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>Matthew's Crystal Clicker Game!</title>
+	<title>Matthew's Trivia Game!</title>
 	<!-- Latest compiled and minified CSS -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--<link rel="stylesheet" type="text/css" href="reset/style.css">-->    
@@ -18,8 +18,6 @@
 <body>
 	<script src="javascript/game.js"></script>
 
-<!-- 	I Need an image click for all of the rupee buttons, with values that call the random rupee function...
- -->
  	<nav class="navbar navbar-inverse" style="background-color: #346ead">
 		<div class="container-fluid">
 			<!--Logo! -->	
@@ -33,50 +31,39 @@
 
 	<div class="container-fluid">
 		<div class="row text-center">
-			<div id="ccTitle">Trivia Game</div>
+			<div id="ccTitle">Question 1: $100</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div id="timer"></div>
 		</div>
 	</div>
 
 	<div class="container-fluid">
 		<div class="row text-center">
-			<div class="col-sm-6" id="targetNumber"></div>
-			<div class="col-sm-6" id="playerNumber"></div>
+			<div class="col-sm-2"></div>
+				<div class="col-sm-8" id="askQuestion"></div>
+			<div class="col-sm-2"></div>
 		</div>		
 	</div>
-
-	<div class="container-fluid">
-		<div class="row text-center" id="crystals">
-			<div class="col-sm-4"></div>
-			<div class="col-sm-1">
-				<div id="rupees1">
-					<img src="images/rupees1.png" style="width: 100px; height: 165px">
-				</div>
-			</div>
-			<div class="col-sm-1">
-				<div id="rupees2">
-					<img src="images/rupees2.png" style="width: 100px; height: 165px">
-				</div>
-			</div>
-			<div class="col-sm-1">
-				<div id="rupees3">
-					<img src="images/rupees3.png" style="width: 100px; height: 165px">
-				</div>
-			</div>
-			<div class="col-sm-1">
-				<div id="rupees4">
-					<img src="images/rupees4.png" style="width: 100px; height: 165px">
-				</div>
-			</div>
-			<div class="col-sm-4"></div>
-		</div>		
-	</div>
-
 	<div class="container-fluid">
 		<div class="row text-center">
-			<div class="col-sm-6" id="wins"></div>
-			<div class="col-sm-6" id="losses"></div>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4" id="choiceA">dsfgjk;lsdfljk;;</div>
+			<div class="col-sm-4" id="choiceB">dllfldl</div>
+			<div class="col-sm-2"></div>
 		</div>
 	</div>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4" id="choiceC">dsfgklsdfkl;</div>
+			<div class="col-sm-4" id="choiceD">notwroking</div>
+			<div class="col-sm-2"></div>
+		</div>
+	</div>
+
 
 
 	<footer class="container-fluid text-center" style="background-color: #285586">
